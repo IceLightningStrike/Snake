@@ -3,6 +3,8 @@
 ######################################################################
 
 
+from library_checker import *
+
 from pygame import Surface, init
 from pygame import K_ESCAPE, QUIT, quit
 from pygame import K_LEFT, K_RIGHT, K_DOWN, K_UP
@@ -14,8 +16,6 @@ from pygame.key import get_pressed
 
 from random import choice
 from itertools import product
-
-from library_checker import *
 
 
 ######################################################################
